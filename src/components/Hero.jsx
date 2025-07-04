@@ -30,7 +30,7 @@ const Hero = () => {
     <div className="flex flex-col w-full xl:h-[50rem] h-full m-auto p-[4.5rem] items-center bg-background" id='home'>
       <div className="relative flex flex-col text-center items-center mt-26">
         <p className="body2">Matas Asačiovas</p>
-        <h1 className="h1">
+        <h1 className="text-h1">
           I build web applications from{" "}
           <span className="text-primary">scratch</span>{" "}
         </h1>

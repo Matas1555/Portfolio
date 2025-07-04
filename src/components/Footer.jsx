@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='flex justify-between items-center bg-primary p-4 px-10 text-secondary'>
         <div className='flex flex-col'>
-            <h3 className='h5'>Socials</h3>
+            <h5 className='text-h5'>Socials</h5>
             <div className='flex gap-4 items-center'>
                 <a href="https://github.com/Matas1555" target='_blank'>
                     <GithubIcon />

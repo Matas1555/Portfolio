@@ -1,8 +1,9 @@
 import React from 'react'
 
-const BentoBox = ({className, image, title, description, logos, bg_overlay="bg-text"}) => {
+const BentoBox = ({className, image, title, description, logos, bg_overlay="bg-text", href}) => {
   return (
     <>
+    <a href={href} target='_blank'>
     <div className={`relative flex flex-col rounded-xl p-4 cursor-pointer group overflow-hidden ${className}`}>
         <div 
             className={`absolute w-full h-full ${bg_overlay} rounded-xl bottom-[5rem] left-0 z-10 [clip-path:circle(0%_at_50%_50%)] group-hover:[clip-path:circle(100%_at_50%_50%)] group-hover:translate-y-20 transition-all duration-500 ease-in-out`}
@@ -21,6 +22,7 @@ const BentoBox = ({className, image, title, description, logos, bg_overlay="bg-t
         </div>
         <p className='px-3 body2 text-secondary z-20'>{description}</p>
     </div>
+    </a>
     </>
   )
 }

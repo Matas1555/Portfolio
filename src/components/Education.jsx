@@ -13,10 +13,10 @@ const Education = () => {
                     <img src={KTU} className="w-100 h-80 border-1 border-text"></img>
                 </div>
                 <div>
-                <h1 className="h4 md:text-[3rem]">
+                <h4 className="text-h4 md:text-[3rem]">
                     Kaunas University of Technology{" "}
                     <span className="body2 text-center lg:pl-5">2020-2025</span>
-                </h1>
+                </h4>
                 <h3 className="text-2xl md:text-3xl font-thin tracking-wide text-primary">
                     Bachelor of Software Systems
                 </h3>
@@ -59,10 +59,10 @@ const Education = () => {
                     <img src={JKM} className="absolute right-0 top-0 w-70 h-40"></img>
                 </div>
                 <div className='max-w-[50rem]'>
-                    <h1 className="h4 md:text-[2.5rem]">
+                    <h4 className="text-h4 md:text-[2.5rem]">
                     School for Young Computer Scientists{" "}
                         <span className="body2 text-center lg:pl-5">2018-2020</span>
-                    </h1>
+                    </h4>
                     <h3 className="text-2xl md:text-3xl font-thin tracking-wide text-primary">Certifcation</h3>
                     <div className="mt-5 body3 md:md:text-2xl">
                     <p className="">

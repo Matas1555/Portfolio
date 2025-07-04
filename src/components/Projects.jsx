@@ -28,16 +28,16 @@ const Projects = () => {
         
 
         {breakpoint === "mobile" || breakpoint === "tablet" ? (
-                    <h1 className='h1 text-[4rem] md:text-[8rem] tracking-wide text-primary -translate-y-15'>Projects</h1>
+                    <h1 className='text-h1 text-[4rem] md:text-[8rem] tracking-wide text-primary -translate-y-15'>Projects</h1>
                ) : (<></>)}
 
         <div className='flex flex-col lg:flex-row gap-10 z-20'>
             <div className='flex flex-col justify-center items-center lg:justify-normal lg:items-normal gap-10'>
-                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] lg:h-[32.5rem] bg-primary" image={<img src={Brainwave} className='rounded-xl'/>} 
+                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] lg:h-[32.5rem] bg-primary" image={<img src={Brainwave} className='rounded-xl'/>} href="https://brainwave-omega-mauve.vercel.app/"
                     logos={<> <ReactLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                             <TailwindcssLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
                     title="Brainwave" description="A website that I made following a tutorial, the website looks modern and presents a good idea for a modern website"/>
-                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-text pb-5" bg_overlay="bg-primary" 
+                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-text pb-5" bg_overlay="bg-primary" href="https://all-the-dles.vercel.app/"
                     logos={<><JavascriptLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
                             <Css3Logo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
                             <Html5Logo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
@@ -45,14 +45,14 @@ const Projects = () => {
             </div>
             <div className='flex flex-col gap-10'>
             {breakpoint === "mobile" || breakpoint === "tablet" ? (<></>) : (<div className='w-120 h-80'>
-                    <h1 className='h1 text-[11rem] tracking-wide text-primary -translate-y-15'>Projects</h1>
+                    <h1 className='text-h1 text-[11rem] tracking-wide text-primary -translate-y-15'>Projects</h1>
                 </div>)}
                 
                 <div className='flex flex-row gap-10'>
                     {breakpoint === "mobile" || breakpoint === "tablet" ? 
                     (<></>) : (<div className='relative flex justify-center items-center w-40 h-147 bg-text -translate-y-40 rounded-2xl'>
                         <ProjectBoxLine className='absolute w-160 h-160 bottom-[-40px]'/> 
-                        <h1 className='h1 -rotate-90 text-secondary'>MA</h1>
+                        <h1 className='text-h1 -rotate-90 text-secondary'>MA</h1>
                     </div>)}
                     
                     <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary lg:-translate-y-40" image={<img src={UniForum} className='rounded-xl'/>}
@@ -67,7 +67,7 @@ const Projects = () => {
         <div className='flex gap-10 lg:mt-[-10rem] z-20'>
             <div className='flex flex-col justify-center lg:flex-row gap-10'>
                 <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary" image={<img src={LeoColorService} className='rounded-xl'/>} 
-                    logos={<> <WordpressLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
+                    logos={<> <WordpressLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>} href="https://leocolorservice.lt/"
                     title="LeoColorService" description="Website for a client who was seeking to create a simple one page website showcasing their available services."/>
                 <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[42.5rem] bg-text pb-5" image={<img src={TeleFlix} className='rounded-xl'/>} bg_overlay="bg-primary"
                     logos={<><JavascriptLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>

@@ -22,7 +22,7 @@ const Experience = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row mb-2 items-start md:items-end">
         <div className="flex items-center gap-2">
-          <h2 className="h2">Tiny solutions</h2>
+          <h2 className="text-h2">Tiny solutions</h2>
         </div>
         <div className="body3 md:mb-2 md:ml-4 ">Dec 2023 - May 2025</div>
       </div>
