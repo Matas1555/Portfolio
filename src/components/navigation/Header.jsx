@@ -28,8 +28,8 @@ const Header = () => {
     <>
       <div className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 px-10 bg-primary text-background">
         <div>
-          <a href="#home" className="text-h5 transition-colors hover:text-secondary">
-            MA
+          <a href="#home" >
+            <h5 className="text-h5 transition-colors hover:text-secondary">MA</h5>
           </a>
         </div>
         <nav className="hidden md:flex xl:gap-25 md:gap-15 ">

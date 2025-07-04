@@ -5,7 +5,7 @@ import LinkedinIcon from '../assets/socials/LinkedinIcon';
 
 const Footer = () => {
   return (
-    <div className='flex justify-between items-center bg-primary p-4 px-10 text-secondary'>
+    <div className='flex justify-between gap-10 items-center bg-primary p-4 px-10 text-secondary'>
         <div className='flex flex-col'>
             <h5 className='text-h5'>Socials</h5>
             <div className='flex gap-4 items-center'>
@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
         </div>
         <div>
-            <h3 className='body2'>Designed & built by Matas Asačiovas © 2025</h3>
+            <h3 className='body2 text-[0.8rem] text-end md:text-[1rem] lg:text-[1.2rem]'>Designed & built by Matas Asačiovas © 2025</h3>
         </div>
     </div>
   )
