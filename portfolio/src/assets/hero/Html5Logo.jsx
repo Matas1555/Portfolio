@@ -1,0 +1,8 @@
+const Html5Logo = ({ className = "w-7 h-7", ...props }) => (
+  <svg width="35" height="35" viewBox="0 0 35 35" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className={className} {...props}>
+    <path d="M13.2228 17.8429H14.44H21.7772L21.3324 22.8601L17.5 23.8349L13.6676 22.8601L13.4025 19.8723H9.49211L10.0312 25.9549L17.5 27.854L24.9691 25.9549L26.0041 14.2726H12.9063L12.5604 10.3689H26.3503L26.6957 6.47336H8.30437L9.31219 17.8429H13.2228Z" fill="currentColor"/>
+    <path d="M1.3922 0L1.45947 0.726455L4.3225 31.6496L17.5 35L30.6774 31.6496L33.6078 0H1.3922ZM27.515 28.9476L17.5 31.4941L7.48501 28.9476L5.11929 3.39821H29.8806L27.515 28.9476Z" fill="currentColor"/>
+  </svg>
+);
+
+export default Html5Logo; 
