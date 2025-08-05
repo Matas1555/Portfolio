@@ -36,7 +36,7 @@ const Projects = () => {
                 <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] lg:h-[32.5rem] bg-primary" image={<img src={Brainwave} className='rounded-xl'/>} href="https://brainwave-omega-mauve.vercel.app/"
                     logos={<> <ReactLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                             <TailwindcssLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
-                    title="Brainwave" description="A website that I made following a tutorial, the website looks modern and presents a good idea for a modern website"/>
+                    title="Brainwave" description="A website that I made following a tutorial, the website looks modern and presents good design ideas"/>
                 <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-text pb-5" bg_overlay="bg-primary" href="https://all-the-dles.vercel.app/"
                     logos={<><JavascriptLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
                             <Css3Logo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
@@ -55,18 +55,18 @@ const Projects = () => {
                         <h1 className='text-h1 -rotate-90 text-secondary'>MA</h1>
                     </div>)}
                     
-                    <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary lg:-translate-y-40" href="https://uniforum.fly.dev/" image={<img src={UniForum} className='rounded-xl'/>}
+                    <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] lg:h-[36.5rem] bg-primary lg:-translate-y-40" href="https://uniforum.fly.dev/" image={<img src={UniForum} className='rounded-xl'/>}
                         logos={<><ReactLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                                 <TailwindcssLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                                 <LaravelLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
-                        title="UniForum" description="Curently Lithuania does not have any one space where users can interact with each other in a academic setting and rate various parts of university life (universities, programs, lecturers). UniForum fixes that problem. Additionaly, if the users feels unsure about what to study, the AI reccommendation option, reccommends programs based on their preferences, forum and review data." />
+                        title="UniForum" description="Curently Lithuania does not have any one space where users can interact with each other in a academic setting and rate various parts of university life (universities, programs, lecturers). UniForum fixes that problem. WARNING: the website is hosted using free services, therefore the data that is being processed by the backend is quite slow." />
                 </div>
                 
             </div>
         </div>
         <div className='flex gap-10 lg:mt-[-10rem] z-20'>
             <div className='flex flex-col justify-center lg:flex-row gap-10'>
-                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary" image={<img src={LeoColorService} className='rounded-xl'/>} 
+                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] lg:h-[31rem] bg-primary" image={<img src={LeoColorService} className='rounded-xl'/>} 
                     logos={<> <WordpressLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>} href="https://leocolorservice.lt/"
                     title="LeoColorService" description="Website for a client who was seeking to create a simple one page website showcasing their available services."/>
                 <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[42.5rem] bg-text pb-5" href="https://tele-flix.vercel.app/" image={<img src={TeleFlix} className='rounded-xl'/>} bg_overlay="bg-primary"
@@ -74,7 +74,7 @@ const Projects = () => {
                             <ReactLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
                             <Css3Logo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                             <FirebaseLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
-                    title="TeleFlix" description="Remember Wordle? Turns out there's is a lot of daily games out there, so I created a website where i put all of my favourite ones in one place and customized each game card." />
+                    title="TeleFlix" description="Teleflix is an idea that me and some of my group mates came up with. Given a server with a lot of space, users can upload movies, or choose existing ones and watch them together inside a chat room simultaneously." />
             </div>
             
         </div>
