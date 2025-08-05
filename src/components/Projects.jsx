@@ -55,7 +55,7 @@ const Projects = () => {
                         <h1 className='text-h1 -rotate-90 text-secondary'>MA</h1>
                     </div>)}
                     
-                    <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary lg:-translate-y-40" image={<img src={UniForum} className='rounded-xl'/>}
+                    <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary lg:-translate-y-40" href="https://uniforum.fly.dev/" image={<img src={UniForum} className='rounded-xl'/>}
                         logos={<><ReactLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                                 <TailwindcssLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />
                                 <LaravelLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>}
@@ -69,7 +69,7 @@ const Projects = () => {
                 <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[30rem] bg-primary" image={<img src={LeoColorService} className='rounded-xl'/>} 
                     logos={<> <WordpressLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' /></>} href="https://leocolorservice.lt/"
                     title="LeoColorService" description="Website for a client who was seeking to create a simple one page website showcasing their available services."/>
-                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[42.5rem] bg-text pb-5" image={<img src={TeleFlix} className='rounded-xl'/>} bg_overlay="bg-primary"
+                <BentoBox className="w-[20rem] md:w-[40rem] lg:w-[42.5rem] bg-text pb-5" href="https://tele-flix.vercel.app/" image={<img src={TeleFlix} className='rounded-xl'/>} bg_overlay="bg-primary"
                     logos={<><JavascriptLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
                             <ReactLogo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary'/>
                             <Css3Logo className='w-5 h-5 lg:w-9 lg:h-9 text-secondary' />

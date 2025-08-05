@@ -87,4 +87,141 @@
         font-weight: normal;
     }
 
+    /* Custom animations */
+    @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes scale-in {
+        from {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    .animate-fade-in-up {
+        animation: fade-in-up 0.6s ease-out forwards;
+    }
+
+    .animate-fade-in {
+        animation: fade-in 0.5s ease-out forwards;
+    }
+
+    .animate-scale-in {
+        animation: scale-in 0.4s ease-out forwards;
+    }
+
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    /* Skill icon hover effects */
+    .skill-icon {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .skill-icon:hover {
+        transform: translateY(-5px) scale(1.1);
+        filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+    }
+
+    /* Gradient text effect */
+    .gradient-text {
+        background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    /* Glow effect for active skills */
+    .skill-glow {
+        box-shadow: 0 0 20px rgba(83, 104, 120, 0.3);
+    }
+
+    /* Modal animations */
+    @keyframes modal-slide-in {
+        from {
+            opacity: 0;
+            transform: scale(0.9) translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+    }
+
+    @keyframes backdrop-fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .modal-slide-in {
+        animation: modal-slide-in 0.3s ease-out forwards;
+    }
+
+    .backdrop-fade-in {
+        animation: backdrop-fade-in 0.3s ease-out forwards;
+    }
+
+    /* Skill card hover effects */
+    .skill-card {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .skill-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Proficiency bar animation */
+    .proficiency-bar {
+        transition: width 0.8s ease-out;
+    }
+
+    /* Tab hover effects */
+    .skill-tab {
+        transition: all 0.2s ease-out;
+    }
+
+    .skill-tab:hover {
+        background-color: rgba(83, 104, 120, 0.05);
+    }
+
+    .skill-tab.active {
+        background-color: rgba(83, 104, 120, 0.1);
+    }
+
 }
